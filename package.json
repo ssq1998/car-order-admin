@@ -1,20 +1,30 @@
 {
-  "name": "gittest",
+  "name": "car-order-admin",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ssq1998/gittest.git"
+  "dependencies": {
+    "element-plus": "^2.6.3",
+    "vue": "^3.4.21"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ssq1998/gittest/issues"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "commitizen": "^4.2.4",
+    "cz-customizable": "^6.3.0",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
   },
-  "homepage": "https://github.com/ssq1998/gittest#readme"
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
 }
