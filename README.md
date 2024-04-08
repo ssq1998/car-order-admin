@@ -6,7 +6,9 @@
 
 ### 技术栈
 
-- 框架: [vite](https://cn.vitejs.dev/)
+- 框架: [Vue3](https://cn.vuejs.org/)
+- 打包工具: [Vite](https://cn.vitejs.dev/)
+- 组件库: [Element Plus](https://element-plus.org/zh-CN/)
 
 ### 开发环境
 
