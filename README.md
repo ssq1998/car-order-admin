@@ -1,5 +1,11 @@
 ## car-order-admin
 
+### 项目启动
+
+- npm install
+- npm install -g commitizen@4.2.4
+- npm run dev
+
 ### 项目简介
 
 预约用车后台管理系统
